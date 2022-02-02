@@ -5,9 +5,9 @@ namespace SolidHountedHouse
 {
     public class HauntedHouse
     {
-        List<Guest> guestList;
-        List<BaseMonster> monsters;
-        Random random;
+        private List<Guest> guestList;
+        private readonly List<BaseMonster> monsters;
+        private readonly Random random;
 
         public HauntedHouse(List<Guest> guestList, List<BaseMonster> monsters, Random random)
         {
